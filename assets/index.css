@@ -62,7 +62,8 @@ ul li a:visited:focus
   font-size: 18px;
 }
 
-ul li {
+ul li a {
+  display: block;
   background-color: #f3ebe6;
   width: calc(100vw - 40px);
   max-width: 710px;
