@@ -24,14 +24,12 @@ header {
 
 header .photo {
   width: 150px;
-  /* width: 105px; */
   height: auto;
   margin-top: 45px;
 }
 
 header .logo {
   width: 200px;
-  /* width: 150px; */
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;

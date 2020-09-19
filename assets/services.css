@@ -1,0 +1,147 @@
+/* ******************* FONTS *********************** */
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("./ebgaramond-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("./ebgaramond-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("./ebgaramond-medium-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("./ebgaramond-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./nunito-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./nunito-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ******************* BODY *********************** */
+
+body {
+  background-color: #fbfaf7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "EBGaramond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+main {
+  width: 100%;
+}
+
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 40px);
+  max-width: 340px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: calc(100vw - 40px);
+  max-width: 340px;
+  height: auto;
+}
+
+.title {
+  font-family: "EBGaramond";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top: -70px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  display: block;
+  text-align: center;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  padding: 0 20px;
+}
+
+.description li {
+  display: inline;
+}
+
+.description li:before {
+  content: "•";
+  color: #000000;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.description li:first-child:before {
+  display: none;
+}
+
+.price {
+  font-family: "EBGaramond";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10 0 0 0;
+}
