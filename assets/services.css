@@ -2,42 +2,42 @@
 
 @font-face {
   font-family: "EBGaramond";
-  src: url("./ebgaramond-regular.ttf") format("truetype");
+  src: url("./fonts/ebgaramond-regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "EBGaramond";
-  src: url("./ebgaramond-medium.ttf") format("truetype");
+  src: url("./fonts/ebgaramond-medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "EBGaramond";
-  src: url("./ebgaramond-medium-italic.ttf") format("truetype");
+  src: url("./fonts/ebgaramond-medium-italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "EBGaramond";
-  src: url("./ebgaramond-bold.ttf") format("truetype");
+  src: url("./fonts/ebgaramond-bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("./nunito-regular.ttf") format("truetype");
+  src: url("./fonts/nunito-regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("./nunito-bold.ttf") format("truetype");
+  src: url("./fonts/nunito-bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
@@ -81,6 +81,8 @@ img {
   width: calc(100vw - 40px);
   max-width: 340px;
   height: auto;
+  min-height: 100px;
+  background-color: #c5c0bc;
 }
 
 .title {

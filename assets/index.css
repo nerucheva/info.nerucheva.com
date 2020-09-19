@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "EBGaramond";
+  src: url("./fonts/ebgaramond-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+body {
+  background-color: #fbfaf7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .photo {
+  width: 150px;
+  height: auto;
+  margin-top: 45px;
+}
+
+header .logo {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus,
+a,
+a:visited,
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus {
+  color: #000000;
+  text-decoration: none;
+  font-family: "EBGaramond";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+ul li {
+  background-color: #f3ebe6;
+  width: calc(100vw - 40px);
+  max-width: 710px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 20px;
+}
