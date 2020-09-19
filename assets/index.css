@@ -37,6 +37,7 @@ header .logo {
 
 main {
   width: 100%;
+  text-align: center;
 }
 
 ul {
@@ -47,18 +48,13 @@ ul {
   align-items: center;
 }
 
-a,
-a:visited,
-a:hover,
-a:focus,
-a:visited:hover,
-a:visited:focus,
-a,
-a:visited,
-a:hover,
-a:focus,
-a:visited:hover,
-a:visited:focus {
+ul li a,
+ul li a:visited,
+ul li a:hover,
+ul li a:focus,
+ul li a:visited:hover,
+ul li a:visited:focus
+{
   color: #000000;
   text-decoration: none;
   font-family: "EBGaramond";
@@ -74,4 +70,23 @@ ul li {
   text-align: center;
   line-height: 80px;
   margin-top: 20px;
+}
+
+.old-site {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a.old-site,
+a.old-site:visited,
+a.old-site:hover,
+a.old-site:focus,
+a.old-site:visited:hover,
+a.old-site:visited:focus
+{
+  color: #4a4949;
+  text-decoration: none;
+  font-family: "EBGaramond";
+  font-weight: 500;
+  font-size: 16px;
 }
